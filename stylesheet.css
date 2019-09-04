@@ -1,23 +1,97 @@
-header{
-	background-color: red;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
-    width: 70%
+/* Color Hex Codes */
+/* Blue: #CAEBF2 */
+/* Grey: #A9A9A9 */
+/* Red: #FF3B3F */
+/* Light Grey: #EFEFEF */
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
 }
 
 nav{
-	background-color: pink;
-	width: 70%;
-	margin-left: auto;
-    margin-right: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 275px;
+	height: 100%;
+	border-right: 3px solid #000000;
+	background: #EFEFEF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-body{
-	background-color: yellow;
+#headshot{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+}
+
+.nav_h1{
+	padding: 6px 8px 0px 8px;
+	font-size: 27px;
+}
+
+.nav_a{
+	padding: 6px 8px 6px 8px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #2196F3;
+	display: block;
+}
+
+main{
+	margin-left: 275px;
 }
 
 footer{
-	background-color: green;
+	margin-left: 275px;
 }
 
+
+/*.sidenav{
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover{
+  color: #064579;
+}
+
+.main{
+  margin-left: 140px; /* Same width as the sidebar + left position in px 
+  font-size: 28px; /* Increased text to enable scrolling 
+  padding: 0px 10px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+@media screen and (max-height: 450px){
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.footer{
+	text-align: center;
+}
+
+.footernav{
+	
+}
+*/
