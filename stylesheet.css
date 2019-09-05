@@ -1,5 +1,5 @@
 /* Color Hex Codes */
-/* Blue: #CAEBF2 */
+/* Blue:  #CAEBF2 */
 /* Grey: #A9A9A9 */
 /* Red: #FF3B3F */
 /* Light Grey: #EFEFEF */
@@ -7,6 +7,10 @@
 *{
 	font-family: sans-serif;
 	box-sizing: border-box;
+}
+
+a:hover{
+	color: #CAEBF2;
 }
 
 nav{
@@ -44,10 +48,28 @@ nav{
 
 main{
 	margin-left: 275px;
+	color: #A9A9A9;
 }
+
+.main_h1{
+	color: #FF3B3F;
+}	
 
 footer{
 	margin-left: 275px;
+	text-align: center;
+}
+
+.footer_a{
+	color: #000000;
+	text-decoration: none;
+	padding: 0px 12px 0px 0px;
+}
+
+.footer_img{
+	height: 15px;
+	width: 15px;
+	padding: 0px 0px 0px 0px;
 }
 
 
