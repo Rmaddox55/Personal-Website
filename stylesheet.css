@@ -47,7 +47,7 @@ nav{
 main{
 	position: absolute;
 	margin-left: 450px;
-	margin-right: 450px;
+	margin-right: 250px;
 	top: 25px;
 	color: #A9A9A9;
 	font-size: 20px;
@@ -74,13 +74,16 @@ h3{
 }
 
 footer{
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
 	text-align: center;
 	height: 65px;
 	vertical-align: middle;
+	background-color: #FFFFFF;
+	border-top: solid;
+	border-width: 5px;
+	border-color: #FFFFFF;
 }
 
 .footer_a{
@@ -88,11 +91,11 @@ footer{
 	text-decoration: none;
 	padding: 0px 12px 0px 0px;
 	vertical-align: middle;
+	padding-top: 5px;
 }
 
 .footer_img{
 	height: 15px;
 	width: 15px;
-	padding: 0px 0px 0px 0px;
 	vertical-align: middle;
 }
